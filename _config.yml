@@ -52,7 +52,7 @@ pilot: false
 # Most workshops don't use extra pages. More information about extra
 # pages are included in the README:
 # https://github.com/carpentries/workshop-template#creating-extra-pages
-title: "Increasing Digital Literacy at AU Waliso Campus"
+title: "Increasing Digital Literacy of Researchers at AU Waliso Campus"
 
 #------------------------------------------------------------
 # Incubator workshop settings (only relevant for workshops teaching a lesson
