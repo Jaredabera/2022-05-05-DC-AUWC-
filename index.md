@@ -219,7 +219,7 @@ special instructions.
 </p>
 <ul>
   <li>The room is wheelchair / scooter accessible.</li>
-  <li>Accessible restrooms are available.</li>
+  <li>Accessible restrooms are available in the Main Administration Building.</li>
 </ul>
 <p>
   Materials will be provided in advance of the workshop and
@@ -284,7 +284,7 @@ Edit the text to match who can attend the workshop. For instance:
 
 <p id="who-can-attend">
     <strong>Who can attend?:</strong>
-    This workshop is open to ....
+    This workshop is open to Academic Staff and Staff engaged in Research Works
 </p>
 {% endcomment %}
 
@@ -312,7 +312,7 @@ Collaborative Notes
 
 If you want to use an Etherpad, go to
 
-https://pad.carpentries.org/YYYY-MM-DD-site
+https://pad.carpentries.org/Data_Carpentry-Woliso-2022
 
 where 'YYYY-MM-DD-site' is the identifier for your workshop,
 e.g., '2015-06-10-esu'.
@@ -413,7 +413,7 @@ and end easier to find.
 This is the other place where people frequently make mistakes, so
 please preview your site before committing, and make sure to run
 'tools/check' as well.
-{% endcomment %}
+##{% endcomment %}
 
 <h2 id="setup">Setup</h2>
 
@@ -421,7 +421,7 @@ please preview your site before committing, and make sure to run
   To participate in a
   {% if site.carpentry == "swc" %}
   Software Carpentry
-  {% elsif site.carpentry == "dc" %}
+  elsif site.carpentry == "dc" 
   Data Carpentry
   {% elsif site.carpentry == "lc" %}
   Library Carpentry
