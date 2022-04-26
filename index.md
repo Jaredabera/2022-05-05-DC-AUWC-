@@ -22,9 +22,9 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 
 {% comment %} See instructions in the comments below for how to edit specific sections of this workshop template. {% endcomment %}
 
-
-HEADER "Yared Abera"
 {% comment %}
+HEADER "Yared Abera"
+
 Edit the values in the block above to be appropriate for your workshop.
 If the value is not 'true', 'false', 'null', or a number, please use
 double quotation marks around the value, unless specified otherwise.
@@ -260,10 +260,11 @@ If you would like to specify who can attend the workshop,
 you can use the section below.
 
 Move the 'endcomment' tag above the beginning of the following
-{% endcomment %}
+
 <p> tag to make this section visible.
 
 Edit the text to match who can attend the workshop. For instance:
+ {% endcomment %}
 - This workshop is open to affiliates to Ambo University-Woliso Campus Senior Academic Staff.
 - This workshop is open to the public conditionally.
 - If you are interested in attending this workshop, contact yared3778@gmail.com  or yared.abera@ambou.edu.et
