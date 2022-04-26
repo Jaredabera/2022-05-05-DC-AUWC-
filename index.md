@@ -228,7 +228,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 
   If you want to use an Etherpad, go to
 
-      http://pad.software-carpentry.org/YYYY-MM-DD-site
+      https://pad.carpentries.org/Data_Carpentry-Woliso-2022 
 
   where 'YYYY-MM-DD-site' is the identifier for your workshop,
   e.g., '2015-06-10-esu'.
