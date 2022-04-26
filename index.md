@@ -22,9 +22,9 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 
 {% comment %} See instructions in the comments below for how to edit specific sections of this workshop template. {% endcomment %}
 
-{% comment %}
-HEADER
 
+HEADER "Yared Abera"
+{% comment %}
 Edit the values in the block above to be appropriate for your workshop.
 If the value is not 'true', 'false', 'null', or a number, please use
 double quotation marks around the value, unless specified otherwise.
@@ -37,21 +37,6 @@ And run 'make workshop-check' *before* committing to make sure that changes are 
 For a workshop please delete the following block until the next dashed-line
 {% endcomment %}
 
-
-<div class="alert alert-danger">
-This is the workshop template. Delete these lines and use it to
-<a href="https://carpentries.github.io/workshop-template/customization/index.html">customize</a>
-your own website. If you are running a self-organized workshop or have not put
-in a workshop request yet, please also fill in
-<a href="{{site.amy_site}}/forms/self-organised/">this workshop request form</a>
-to let us know about your workshop and our administrator may contact you if we
-need any extra information.
-If this is a pilot workshop for a new lesson,
-set the `pilot` field to `true` in `_config.yml`.
-For workshops teaching a lesson in The Carpentries Incubator,
-remember to uncomment the `incubator_lesson_site`, `incubator_pre_survey`, and `incubator_post_survey`
-fields in `_config.yml`
-</div>
 
 {% comment %}
 8< ============================= until here ==================
@@ -275,19 +260,20 @@ If you would like to specify who can attend the workshop,
 you can use the section below.
 
 Move the 'endcomment' tag above the beginning of the following
+{% endcomment %}
 <p> tag to make this section visible.
 
 Edit the text to match who can attend the workshop. For instance:
-- This workshop is open to affiliates to ABC university.
-- This workshop is open to the public.
-- If you are interested in attending this workshop, contact me@example.com
+- This workshop is open to affiliates to Ambo University-Woliso Campus Senior Academic Staff.
+- This workshop is open to the public conditionally.
+- If you are interested in attending this workshop, contact yared3778@gmail.com  or yared.abera@ambou.edu.et
   for more information
 
 <p id="who-can-attend">
     <strong>Who can attend?:</strong>
-    This workshop is open to Academic Staff and Staff engaged in Research Works
+    This workshop is open to Academic Staff and Staff engaged in Research Works at Ambo University Woliso Campus
 </p>
-{% endcomment %}
+
 
 <hr/>
 
