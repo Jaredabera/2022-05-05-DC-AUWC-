@@ -276,7 +276,6 @@ Edit the text to match who can attend the workshop. For instance:
     This workshop is open to Academic Staff and Staff engaged in Research Works at Ambo University Woliso Campus
 </p>
 
-
 <hr/>
 
 {% comment%}
@@ -295,13 +294,12 @@ Everyone who participates in Carpentries activities is required to conform to th
 </p>
 <hr/>
 
-
 {% comment %}
 Collaborative Notes
 
 If you want to use an Etherpad, go to
 
-https://pad.carpentries.org/Data_Carpentry-Woliso-2022
+https://pad.carpentries.org/DataCarpentry-Woliso-2022
 
 where 'YYYY-MM-DD-site' is the identifier for your workshop,
 e.g., '2015-06-10-esu'.
