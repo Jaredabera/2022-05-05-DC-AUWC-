@@ -299,7 +299,7 @@ Collaborative Notes
 
 If you want to use an Etherpad, go to
 
-https://pad.carpentries.org/DataCarpentry-Woliso-2022
+https://pad.carpentries.org/Data_Carpentry-Woliso-2022
 
 where 'YYYY-MM-DD-site' is the identifier for your workshop,
 e.g., '2015-06-10-esu'.
